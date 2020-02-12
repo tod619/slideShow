@@ -111,6 +111,58 @@
 
 /* Slidshow */
 .slideshow-wrapper {
+  overflow: hidden;
+}
+
+.slideshow {
+  display: flex;
+  width: 400%;
+  height: 100%;
+  position: relative;
+  animation: slideshow 24s infinite;
+}
+
+/* Animation to move slides in a slideshow*/
+@keyframes slideshow {
+  0% {
+    left: 0;
+  }
+  10% {
+    left: 0;
+  }
+  15% {
+    left: -100%;
+  }
+  25% {
+    left: -100%;
+  }
+  30% {
+    left: -200%;
+  }
+  40% {
+    left: -200%;
+  }
+  45% {
+    left: -300%;
+  }
+  55% {
+    left: -300%;
+  }
+  60% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -100%;
+  }
+  85% {
+    left: -100%;
+  }
+  90% {
+    left: 0;
+  }
 }
 
 /* Create slides */
