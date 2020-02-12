@@ -139,3 +139,44 @@
   background: url(../images/tokyo.jpg) center no-repeat;
   background-size: cover;
 }
+
+/* Style content */
+.content {
+  width: 500px;
+  position: relative;
+  top: 35%;
+  left: 5%;
+}
+
+.content h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.content p {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  color: #ccc;
+}
+
+.content button {
+  width: 130px;
+  padding: 10px 10px 0 0;
+  margin-top: 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+}
+
+.content i {
+  margin-left: 8px;
+}
