@@ -21,6 +21,29 @@
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
+  overflow: hidden;
+}
+
+/* Banner animation */
+.banner::after {
+  content: "";
+  width: 250%;
+  height: 100%;
+  background: linear-gradient(to right, transparent, #000, #000);
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* Adding the animation to the banner */
+  animation: bannerAnim 3s linear forwards;
+}
+
+@keyframes bannerAnim {
+  0% {
+    right: 0%;
+  }
+  100% {
+    right: -250%;
+  }
 }
 
 .banner h1 {
@@ -46,6 +69,17 @@
   transform: perspective(500px) rotateY(-15deg);
   text-shadow: 6px 3px 2px rgba(0, 0, 0, 0.4);
   cursor: pointer;
+  animation: buttonAnim 1s 2.5s backwards;
+}
+
+/* Button fade in effect */
+@keyframes buttonAnim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* Slidshow */
