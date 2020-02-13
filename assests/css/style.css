@@ -121,7 +121,6 @@
   width: 400%;
   height: 100%;
   position: relative;
-  animation: slideshow 24s infinite;
 }
 
 /* Animation to move slides in a slideshow*/
