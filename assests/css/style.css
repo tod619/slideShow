@@ -268,4 +268,25 @@
 
 /* Screen size 650px or less */
 @media (max-width: 650px) {
+  .banner h1 {
+    font-size: 40px;
+  }
+
+  .banner button {
+    width: 180px;
+    padding: 7px;
+    font-size: 20px;
+  }
+
+  .content {
+    width: 300px;
+  }
+
+  .content h3 {
+    font-size: 30px;
+  }
+
+  .content p {
+    font-size: 15px;
+  }
 }
