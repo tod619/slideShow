@@ -257,3 +257,15 @@
 .content i {
   margin-left: 8px;
 }
+
+/* Media Queries */
+/* Screen size 1000px or less */
+@media (max-width: 1000px) {
+  .banner h1 {
+    font-size: 80px;
+  }
+}
+
+/* Screen size 650px or less */
+@media (max-width: 650px) {
+}
